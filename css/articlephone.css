@@ -1,0 +1,153 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        height: 210px;
+        background-image: url("../image/BANNER.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #daohangdiv {
+        width: 90%;
+        height: 50px;
+        margin: 0 auto;
+    }
+    
+    #logo {
+        width: 45px;
+        float: left;
+        padding-top: 8px;
+        padding-left: 8px;
+        transform-style: preserve-3d;
+        animation: logo1 5s infinite linear;
+    }
+    
+    @keyframes logo1 {
+        0% {
+            transform: rotateY(0);
+        }
+        100% {
+            transform: rotateY(360deg);
+        }
+    }
+    
+    #daohang {
+        display: none;
+    }
+    
+    main {
+        display: flex;
+        height: 3100px;
+        background: #F5F5F5;
+        font-size: 75%;
+    }
+    
+    #articleleftdiv {
+        float: left;
+        width: 414px;
+        height: 180PX;
+        /* margin: 25PX 0 0 160PX; */
+        background: white;
+        /* line-height: 50px; */
+    }
+    
+    #articleleftdiv h1 {
+        height: 50px;
+        /* background: blue; */
+        margin: 60px 0 15px 0;
+        font-family: "华文新魏";
+    }
+    
+    #articleleftdiv h2 {
+        height: 40px;
+        font-size: 120%;
+        /* background: blue; */
+        margin-bottom: 10px;
+        font-family: "华文新魏";
+    }
+    
+    #articletopbar {
+        height: 10px;
+        background: #D0CFCF;
+        margin-bottom: 25px;
+    }
+    
+    #articletext {
+        height: 800PX;
+        /* background: yellow; */
+    }
+    
+    #articletext P {
+        text-indent: 2rem;
+        line-height: 50px;
+        margin: 10px 10px;
+        /* font-weight: bold; */
+        font-family: "等线";
+        /* color: #929292; */
+        color: black;
+    }
+    
+    #articletext P:first-child {
+        /* height: 250px; */
+        /* background: green; */
+        margin-top: 25px;
+    }
+    
+    #articletext P:last-child {
+        /* height: 250px; */
+        /* background: green; */
+        margin-bottom: 25px;
+    }
+    
+    #articlelasttext {
+        height: 260px;
+        /* background: red; */
+    }
+    
+    #articlelasttext h2 {
+        font-family: "华文新魏";
+        height: 50px;
+        margin: 25px 0 0 0;
+        /* background: rgb(255, 0, 119); */
+    }
+    
+    #articlelasttext p {
+        /* height: 120px; */
+        margin: 10px 10px;
+        line-height: 50px;
+        font-family: "等线";
+        /* background: rgb(255, 0, 119); */
+    }
+    
+    footer {
+        font-size: 75%;
+        height: 50px;
+        background: #D0CFCF;
+        margin-bottom: 25px;
+    }
+    
+    footer p {
+        width: 95%;
+        height: 25px;
+        text-align: center;
+        line-height: 50px;
+        float: left;
+        /* background: red; */
+    }
+    
+    footer p a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    footer p span {
+        margin-left: 5px;
+    }
+    
+    a:link,
+    a:visited {
+        text-decoration: none;
+    }

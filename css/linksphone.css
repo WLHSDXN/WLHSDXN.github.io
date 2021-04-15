@@ -1,0 +1,117 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        height: 210px;
+        background-image: url("../image/BANNER.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #daohangdiv {
+        width: 90%;
+        height: 50px;
+        margin: 0 auto;
+    }
+    
+    #logo {
+        width: 45px;
+        float: left;
+        padding-top: 8px;
+        padding-left: 8px;
+        transform-style: preserve-3d;
+        animation: logo1 5s infinite linear;
+    }
+    
+    @keyframes logo1 {
+        0% {
+            transform: rotateY(0);
+        }
+        100% {
+            transform: rotateY(360deg);
+        }
+    }
+    
+    #daohang {
+        display: none;
+    }
+    
+    main {
+        display: flex;
+        height: 3700px;
+        background: #F5F5F5;
+    }
+    
+    #linksleftdiv {
+        float: left;
+        width: 375px;
+        height: 3600PX;
+        /* margin: 25PX 0 0 150PX; */
+        background: white;
+    }
+    
+    #linksleftdiv h2 {
+        height: 40px;
+        /* background: blue; */
+        margin-bottom: 15px;
+        font-family: "华文新魏";
+        margin: 60px 0 30px 0;
+    }
+    
+    #linksleftdiv div {
+        float: left;
+        width: 75px;
+        height: 150px;
+        /* background: red; */
+        margin: 20px 25px;
+    }
+    /* #leftdiv div:nth-child(odd) {
+    margin: 10px 0;
+} */
+    
+    #linksleftdiv div a {
+        float: left;
+        display: block;
+        background: white;
+        text-align: center;
+    }
+    
+    #linksleftdiv div a img {
+        float: left;
+        height: 75px;
+        padding-bottom: 20px;
+    }
+    
+    footer {
+        height: 50px;
+        background: #D0CFCF;
+        margin-bottom: 25px;
+    }
+    
+    footer p {
+        line-height: 50px;
+        font-size: 75%;
+        width: 95%;
+        height: 25px;
+        text-align: center;
+        /* margin: 25px 10px; */
+        float: left;
+        /* background: red; */
+    }
+    
+    footer p a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    footer p span {
+        margin-left: 5px;
+    }
+    
+    a:link,
+    a:visited {
+        color: black;
+        text-decoration: none;
+    }

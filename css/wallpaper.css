@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 300px;
+    background-image: url("../image/BANNER2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#daohangdiv {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    /* padding: 10px; */
+    /* background-color: red; */
+}
+
+#logo {
+    width: 5%;
+    float: left;
+    padding-left: 8px;
+    /* margin: 0px 0 0 8px; */
+    transform-style: preserve-3d;
+    animation: logo1 5s infinite linear;
+}
+
+@keyframes logo1 {
+    0% {
+        transform: rotateY(0);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+#daohang {
+    float: right;
+    margin: 0 0 0 40%;
+}
+
+#daohang a {
+    padding: 15px 20px;
+    display: block;
+    float: left;
+    /* margin: 0 8px 0 0; */
+    color: white;
+    text-decoration: none;
+}
+
+#daohang a:hover {
+    background: #D0CFCF;
+    color: black;
+    transition-duration: 200ms;
+}
+
+main {
+    height: 2080px;
+    background: #F5F5F5;
+}
+
+#wallpaperleftdiv {
+    float: left;
+    width: 1260px;
+    height: 1890PX;
+    margin: 25px 130px;
+    /* margin: 25PX 0 0 120PX; */
+    background: white;
+}
+
+#wallpaperleftdiv h2 {
+    height: 40px;
+    /* background: blue; */
+    margin: 60px 0 30px 0;
+    font-family: "华文新魏";
+}
+
+#wallpaperleftdiv div {
+    width: 390px;
+    height: 250px;
+    background: blue;
+    float: left;
+    margin: 10px 15px;
+}
+
+#wallpaperleftdiv div a img {
+    width: 390px;
+    height: 250px;
+    /* margin: 25px 25px; */
+    /* margin: 25px 0 25px 15px; */
+}
+
+footer {
+    height: 75px;
+    background: #D0CFCF;
+    margin-bottom: 25px;
+}
+
+footer p {
+    width: 95%;
+    height: 25px;
+    text-align: center;
+    margin: 25px 10px;
+    float: left;
+    /* background: red; */
+}
+
+footer p a {
+    color: black;
+    text-decoration: none;
+}
+footer p span {
+        display: none;
+    }
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active {
+    color: gray;
+    text-decoration: underline;
+}
