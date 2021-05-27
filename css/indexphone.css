@@ -53,6 +53,7 @@
         height: 4750PX;
         /* margin: 25PX 0 0 180PX; */
         background: white;
+        overflow: hidden;
     }
     
     #more {
