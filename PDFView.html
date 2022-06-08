@@ -1,0 +1,25 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDFView</title>
+    <link rel="shortcut icon" type="image/x-icon" href="image/logo.ico" media="screen" />
+</head>
+
+<body>
+    <embed id="pdf" src="" style="margin: 0 auto;" height="100%" width="100%">
+    <script>
+        var url = location.search;
+        if (url.indexOf("?") != -1) {
+            var str = url.substr(1);
+            strs = str.split("&");
+            src = decodeURIComponent(strs[0].replace("src=", "")); //获取url中的src
+        }
+        document.getElementById("pdf").setAttribute("src", src);
+        document.getElementsByTagName("title")[0].innerText = src;
+    </script>
+</body>
+
+</html>
